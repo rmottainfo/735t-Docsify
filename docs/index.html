@@ -12,31 +12,39 @@
 <body>
   <div id="app">Carregando...</div>
   <script>
-    window.$docsify = {
-      name: '735t-Docsify',
-      repo: 'https://github.com/rmottainfo/735t-Docsify', // Cole o URL do repositório se quiser o botão no topo
-	  loadNavbar: true, // load from _navbar.md
-      loadSidebar: true,
-		alias: {
-			'/.*/_sidebar.md': '/_sidebar.md',
-		},
-      subMaxLevel: 2,
-      auto2top: true,
-      coverpage: true,
-
-      
-      // Busca integrada
-      search: {
-        placeholder: 'Pesquisar...',
-        noData: 'Nenhum resultado encontrado',
-        depth: 3
-      }
+window.$docsify = {
+  name: '735t-Docsify',
+  repo: 'https://github.com/rmottainfo/735t-Docsify',
+  loadNavbar: true,
+  loadSidebar: true,
+  subMaxLevel: 2,
+  auto2top: true,
+  coverpage: true,
+  
+  // Configuração multilíngue
+  multilanguage: {
+    default: 'pt-br',
+    languages: ['pt-br', 'en', 'es'],
+    labels: {
+      'pt-br': 'Português',
+      'en': 'English',
+      'es': 'Español'
     }
+  },
+  
+  search: {
+    placeholder: 'Pesquisar...',
+    noData: 'Nenhum resultado encontrado',
+    depth: 3
+  }
+}
   </script>
   
   <!-- Core do Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify@5"></script>
   <!-- Plugin de Busca -->
   <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/plugins/search.min.js"></script>
+  <!-- Plugin de Suporte a Idiomas -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-multilanguage-plugin/dist/docsify-multilanguage.min.js"></script>
 </body>
 </html>
