@@ -1,6 +1,7 @@
-<!-- docs/_sidebar.md -->
+<!-- docs/en/_sidebar.md -->
 
-* [Get Start](en/)
-* **Guide**
-  * [Instalation](en/instalation.md)
-  * [🇧🇷 Mude para Português](pt/)
+* [Home](en/README.md)
+* [Installation](en/installation.md)
+
+---
+* [🇧🇷 Versão em Português](pt/README.md)
