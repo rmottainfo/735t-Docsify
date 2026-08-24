@@ -15,9 +15,15 @@
     window.$docsify = {
       name: '735t-Docsify',
       repo: 'https://github.com/rmottainfo/735t-Docsify', // Cole o URL do repositório se quiser o botão no topo
+	  loadNavbar: true, // load from _navbar.md
       loadSidebar: true,
+		alias: {
+			'/.*/_sidebar.md': '/_sidebar.md',
+		},
       subMaxLevel: 2,
       auto2top: true,
+      coverpage: true,
+
       
       // Busca integrada
       search: {

@@ -1,3 +1,5 @@
+<!-- docs/pt/_sidebar.md -->
+
 * [Início](pt/)
 * **Guia**
   * [Instalação](pt/instalacao.md)

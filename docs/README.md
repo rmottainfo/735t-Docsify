@@ -1,10 +1,10 @@
 # 735t-Docsify
 
-Processo de implementação do Docsify não exige compilação (*build*). O site é gerado diretamente no navegador a partir dos arquivos Markdown.
+Teste de documentação
 
 ---
 
-### Passo 1: Estruturar o Repositório
+## Passo 1: Estruturar o Repositório
 
 Crie a estrutura de pastas no seu projeto. Para manter a documentação **multilingue** e **multiplataforma**, organize os arquivos `.md` por idioma e crie um arquivo `index.html` na raiz.
 
@@ -26,49 +26,9 @@ Crie a estrutura de pastas no seu projeto. Para manter a documentação **multil
 
 ---
 
-### Passo 2: Criar o `index.html` (Arquivo Base)
+## Passo 2: Criar o `index.html` (Arquivo Base)
 
 Crie o arquivo `index.html` na raiz do repositório. Ele carrega a biblioteca do Docsify e define as configurações principais.
-
-```html
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Documentação do Projeto</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  
-  <!-- Tema do Docsify -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-</head>
-<body>
-  <div id="app">Carregando...</div>
-  <script>
-    window.$docsify = {
-      name: 'Nome do Projeto',
-      repo: '', // Cole o URL do repositório se quiser o botão no topo
-      loadSidebar: true,
-      subMaxLevel: 2,
-      auto2top: true,
-      
-      // Busca integrada
-      search: {
-        placeholder: 'Pesquisar...',
-        noData: 'Nenhum resultado encontrado',
-        depth: 3
-      }
-    }
-  </script>
-  
-  <!-- Core do Docsify -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- Plugin de Busca -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-</body>
-</html>
-
-```
 
 ---
 
@@ -100,18 +60,6 @@ Atua como o menu principal e seletor de idiomas:
 ### Passo 4: Escrever o Conteúdo Markdown
 
 Crie o conteúdo de exemplo nos arquivos Markdown.
-
-**Exemplo: `pt/instalacao.md**`
-
-```markdown
-# Instalação
-
-Para instalar a ferramenta, execute o comando abaixo:
-
-```bash
-echo "Instalação concluída"
-
-```
 
 ---
 

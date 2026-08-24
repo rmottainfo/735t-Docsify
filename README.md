@@ -2,6 +2,7 @@
 
 Processo de implementação do Docsify não exige compilação (*build*). O site é gerado diretamente no navegador a partir dos arquivos Markdown.
 
+https://docsify.js.org/#/
 
 ## Passo 1: Estruturar o Repositório
 
