@@ -2,8 +2,9 @@
 
 Processo de implementação do Docsify não exige compilação (*build*). O site é gerado diretamente no navegador a partir dos arquivos Markdown.
 
+---
 
-## Passo 1: Estruturar o Repositório
+### Passo 1: Estruturar o Repositório
 
 Crie a estrutura de pastas no seu projeto. Para manter a documentação **multilingue** e **multiplataforma**, organize os arquivos `.md` por idioma e crie um arquivo `index.html` na raiz.
 
@@ -109,7 +110,7 @@ Para instalar a ferramenta, execute o comando abaixo:
 
 ```bash
 echo "Instalação concluída"
-```
+
 ```
 
 ---
