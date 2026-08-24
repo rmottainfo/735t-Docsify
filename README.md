@@ -91,9 +91,7 @@ Atua como o menu principal e seletor de idiomas:
 * [Início](pt/)
 * **Guia**
   * [Instalação](pt/instalacao.md)
-
----
-* [🇺🇸 Switch to English](en/)
+  * [🇺🇸 Switch to English](en/)
 
 ```
 
@@ -115,8 +113,6 @@ echo "Instalação concluída"
 
 ```
 
-```
-
 ---
 
 ### Passo 5: Testar Localmente
@@ -125,11 +121,10 @@ Existem duas formas simples de visualizar o site na sua máquina:
 
 * **Opção A (Sem instalar nada):** Abra o arquivo `index.html` diretamente em um navegador web ou use a extensão *Live Server* do VS Code.
 * **Opção B (Via CLI oficial do Docsify):**
-  ```bash
+```bash
   # Requer Node.js
   npm i -g docsify-cli
   docsify serve .
-
 ```
 
 Acesse no navegador: `http://localhost:3000`.
