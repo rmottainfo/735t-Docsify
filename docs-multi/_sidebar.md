@@ -3,5 +3,4 @@
 * Idioma
   * [🇧🇷 Português](/#/pt/)
   * [🇺🇸 English](/#/en/)
-- [GitHub](https://github.com/rmottainfo/735t-Docsify)
-- [Instalation](instalation.md)
+* [GitHub](https://github.com/rmottainfo/735t-Docsify)
